@@ -1,0 +1,59 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display:flex;
+    margin: 0px 150px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    background-color: rgb(245, 245, 245);
+}
+#logo img{
+    width:100%;
+    opacity: 0.9;
+}
+nav{
+    display: flex;
+}
+#menu{
+    display: flex;
+    margin-right: 15px;
+}
+#menu a{
+    padding: 0px 15px;
+    text-decoration: none;
+    color:rgb(60, 60, 70);
+}
+#menu a i{
+    margin-left: 3px;
+}
+#menu a:hover{
+    cursor: pointer;
+    text-shadow: 0px 0px 1px rgb(40, 40, 50);
+}
+#menu .active{
+    padding-bottom: 10px;
+    color:rgb(175, 150, 100);
+    border-bottom: 1px solid rgb(175, 150, 100);
+    font-size: 1.1em;
+}
+#menu-icon{
+    position:relative;
+}
+#menu-icon i{
+    position:relative;
+    color:rgb(60, 60, 70);
+}
+#menu-icon #cart-value{
+    background-color:  rgba(60, 80, 145,0.75);
+    color:white;
+    padding:1px 3px;
+    border-radius: 120px;
+    font-size: 0.75em;
+    text-shadow: 0px 0px 2px;
+    position:relative;
+    top:-10px;
+    right: 12px;
+}
