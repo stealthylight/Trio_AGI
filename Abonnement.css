@@ -1,0 +1,22 @@
+.div-choice{
+    background-color: rgb(201, 191, 191);
+    width: 1000px;
+    height: 300px;
+    padding-top: 50px;
+    
+
+}
+.article1{
+    background-color: rgba(12, 45, 107, 0.863);
+    text-align: center;
+    text-decoration: none;
+    color: rgb(223, 214, 214);
+    width: 500px;
+    height: 200px;
+    margin-left: 50px;
+
+}
+.h1{
+    text-transform: inherit;
+    
+}
