@@ -124,7 +124,7 @@ nav{
 }
 #section-1::before{
     content:"";
-    background-image: url(Image/section-1-1.jpg);
+    background-image: url(Image/Accueil/section-1-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width:100%;
