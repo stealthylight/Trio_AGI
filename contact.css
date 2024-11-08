@@ -1,18 +1,104 @@
 #h1{
+    color: rgb(134, 119, 119);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
+    left: 30px;
+    position: relative;
 }
 
 #bloc{
     display: flex;
 }
 
-#left-text h1{
-    color: red;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
+    /* --- left ---*/
+.left{
+    position: relative;
+    width: 50%;
+    z-index: 3;
 }
-#left-text p{
-    color: red;
-    font-family: ;
+#left-image{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#left-image img{
+    position: relative;
+    left: 70px;
+    width: 90%;
+    height: 110%;
+}
+#left-text{
+    background-color: rgb(7, 4, 172, 0.7);
+    position: relative;
+    bottom: 29px;
+    left: 70px;
+    height: 110%;
+    width: 90%;
+}
+#left-text h1{ /* --- balise h1 ---*/
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    right: 50px;
+    top: 35%;
+}
+#left-text p{ /* --- balise p ---*/
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 40px;
+    top: 40%;
+}
+
+
+     /* --- right ---*/
+.right{
+    position: relative;
+    width: 50%;
+}
+form{
+    bottom: 30px;
+    margin-left: 70px;
+
+}
+.right h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(95, 80, 80);
+}
+input{
+    font-size: 20px;
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    font-size: 70px;
+    height: 50%;
+    width: 50%;
+}
+
+button{
+    background-color: rgba(6, 30, 66, 0.863);
+    border: 1px solid rgba(6, 30, 66, 0.863);
+    border-radius: 3px;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+
+.image{
+    position: relative;
+    left: 90px;
+    top: 130px;
 }
