@@ -259,6 +259,7 @@ footer #image-below{
     display: flex;
     font-size: 1.5em;
     justify-content: center;
+    margin-bottom: 25px;
 }
 footer #image-below div{
     padding: 10px 7px 10px 15px;

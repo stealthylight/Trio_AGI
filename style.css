@@ -23,6 +23,7 @@
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:100%;
 }
 header{
     display:flex;
@@ -250,10 +251,13 @@ footer{
     background-color: rgba(30, 50, 130, 1);
     color:white;
     padding: 10px 10px 25px;
+    width:100%;
 }
 #footer-div-1{
     display:flex;
     align-items: baseline;
+    overflow: hidden;
+    justify-content: center;
 }
 #footer-div-1>div{
     width:25%;
@@ -327,7 +331,7 @@ footer #youtube{
     background-color: rgba(255,0,0,0.75);
 }
 footer hr{
-    margin:25px 10px;
+    margin:15px 15px;
     opacity:0.5;
 }
 hr ~ p{
@@ -335,4 +339,84 @@ hr ~ p{
     width:fit-content;
     opacity:0.6;
     font-size: 0.85em;
+}
+@media screen and (max-width:950px ){
+    body{
+        max-width: 949px;
+    }
+    #section-1-1{
+        width:70%;
+    }
+    #section-2{
+        align-items: center;
+        margin: 50px 10px;
+    }
+    #section-3-1{
+        padding-left: 15px;
+        align-items: center;
+        gap:5px;
+    }
+    #section-3 .right img{
+        width:100%;
+        height: 100%;
+        display: block;
+        margin-left: auto;
+    }
+    #section-4 p{
+        width:75%;
+    }
+    #footer-div-1{
+        flex-wrap: wrap;
+    }
+    #footer-div-1>div{
+        width:30%;
+
+    }
+    #section-4+footer #footer-div-1>div::after{
+        border:none;
+    }
+    #footer-div-1>div:last-child{
+        width:50%;
+        margin: auto;
+    }
+    #section-4+footer #footer-div-1>div:nth-child(2):after{
+        
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        height:165px;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        max-width: 599px;
+    }
+    #section-1-1{
+        width:90%;
+        margin: auto;
+    }
+    #section-2{
+        flex-direction: column;
+    }
+    #section-2>div{
+        width: 100%;
+    }
+    #section-3-1{
+        flex-direction: column-reverse;
+    }
+    #section-3-1>div{
+        width:90%;
+    }
+    #section-4 p{
+        width:100%;
+    }
+    #section-4+footer>#footer-div-1>div{
+        width:49%;
+    }
+    #section-3+#section-4+footer>#footer-div-1>div::after{
+        border:none;
+    }
+    #section-3+#section-4+footer>#footer-div-1>div:nth-child(even){
+        border-left:1px solid white;
+        padding-bottom: 20px;
+    }
 }
