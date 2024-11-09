@@ -1,0 +1,85 @@
+#section-1{
+    background-image: url(Image/Service/section-1-1.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 125%;
+    padding: 100px 50px;
+}
+#section-1-1{
+    background-color: rgba(8, 31, 158, 0.8);
+    padding: 25px 50px 50px;
+    width:50%;
+    color:white;
+}
+#section-1-1 p{
+    font-size: 1.25em;
+}
+#section-2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:10px;
+    margin-top: 25px;
+}
+.box{
+    width:30%;
+    border-radius: 15px;
+    color:rgb(175, 150, 100);
+    text-align: center;
+    font-size: 1em;
+    position:relative;
+}
+.box-image{
+    width:100%;
+    height: 300px;
+    position:relative;
+}
+.box-image img{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    opacity: 0.8;
+}
+.box-image .box-view{
+    position: absolute;
+    top:0px;
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50,50,50,0.75);
+    border-radius:15px;
+}
+.box-image .box-view button{
+    background-color: blue;
+    padding: 10px 25px;
+    border:2px solid white;
+    font-size:1.1em;
+    color:white;
+    border-radius: 120px;
+}
+.box-image .box-view button span{
+    font-size: 0.9em;
+    text-shadow: 0px 0px 2px;
+}
+.box-image .box-view button:hover{
+    cursor:pointer;
+}
+.box-buttons{
+    position:absolute;
+    right:10px;
+    bottom: 50px;
+    color: white;
+    text-shadow: 0px 0px 2px white;
+}
+.box-buttons i{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(0, 0, 255,0.85);
+    border-radius: 5px;
+}
+.box-buttons i:hover{
+    cursor:pointer;
+    background-color: blue;
+}
