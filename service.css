@@ -148,6 +148,7 @@ nav{
     background-repeat: no-repeat;
     background-size: 100% 125%;
     padding: 100px 50px;
+    margin-top:50px;
 }
 #section-1-1{
     background-color: rgba(8, 31, 158, 0.8);
@@ -334,6 +335,8 @@ hr ~ p{
     #menu a{
         padding: 0px 10px;
     }
+    #section-2 .box-buttons{font-size: 1.5em;
+    bottom:40px;}
     /* HEADER FIN HEADER*/
 }
 @media screen and (max-width:950px ){
@@ -370,6 +373,20 @@ hr ~ p{
     }
 
     /* FIN HEADER */
+    #section-1-1{
+        width:60%;
+        font-size: 1.25em;
+    }
+    .box{
+        width:40%;
+        
+    }
+    #section-2 .box-text h1{
+        font-size: 1.5em;
+    }
+    #section-2 .box-buttons{
+        bottom:60px;
+    }
 
     /* FOOTER */
     #footer-div-1{
@@ -407,6 +424,21 @@ hr ~ p{
         right:-15px;
     }
     /* FIN HEADER */
+
+    #section-1-1{
+        width:75%;
+        margin:auto;
+    }
+    .box{
+        width:80%;
+        
+    }
+    #section-2 .box-text h1{
+        font-size: 1.5em;
+    }
+    #section-2 .box-buttons{
+        bottom:60px;
+    }
 
     /* FOOTER */
     #body>#footer>#footer-div-1>div{

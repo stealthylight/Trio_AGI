@@ -356,6 +356,14 @@ hr ~ p{
     }
 
     /* FIN HEADER */
+    #section-1{
+        margin: 100px 10px 50px;
+        font-size:1.1em;
+    }
+    #section-1 .box-image{
+        width:100%;
+        height: 300px;
+    }
 
     /* FOOTER */
     #footer-div-1{
@@ -393,7 +401,12 @@ hr ~ p{
         right:-15px;
     }
     /* FIN HEADER */
-
+    #section-1 {
+        justify-content: center;
+    }
+    #section-1 .box{
+        width:75%;
+    }
     /* FOOTER */
     #body>#footer>#footer-div-1>div{
         width:49%;
