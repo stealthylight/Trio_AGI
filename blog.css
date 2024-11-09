@@ -214,18 +214,19 @@ nav{
 
 
 
-
-/*ANJARA FOOTER*/
-
+/* ANJARA FOOTER */
 
 footer{
     background-color: rgba(30, 50, 130, 1);
     color:white;
     padding: 10px 10px 25px;
+    width:100%;
 }
 #footer-div-1{
     display:flex;
     align-items: baseline;
+    overflow: hidden;
+    justify-content: center;
 }
 #footer-div-1>div{
     width:25%;
@@ -283,7 +284,6 @@ footer #image-below{
     display: flex;
     font-size: 1.5em;
     justify-content: center;
-    margin-bottom: 25px;
 }
 footer #image-below div{
     padding: 10px 7px 10px 15px;
@@ -300,7 +300,7 @@ footer #youtube{
     background-color: rgba(255,0,0,0.75);
 }
 footer hr{
-    margin:25px 10px;
+    margin:15px 15px;
     opacity:0.5;
 }
 hr ~ p{
@@ -309,7 +309,9 @@ hr ~ p{
     opacity:0.6;
     font-size: 0.85em;
 }
-/*ANJARA FIN FOOTER*/
+
+/* ANJARA FOOTER */
+
 
 /* RESPONSIVE */
 @media screen and (max-width:1200px){
