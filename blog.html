@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="blog.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
 </head>
-<body>
+<body id="body">
+    <!-- ANJARA HEADER -->
     <header>
         <div id="logo">
             <img src="Image/Accueil/logo.png" alt="">
         </div>
         <nav>
             <div id="menu">
-                <a href="">Accueil</a>
+                <a href="" class="active">Accueil</a>
                 <a href="">Nos prestations</a>
                 <a href="">Nos logiciels</a>
                 <a href="">Special étudiants</a>
                 <a href="">Nos abonnements</a>
-                <a href="" class="active">
+                <a href="">
                     Blog
                     <i class="fas fa-caret-down"></i>
                 </a>
@@ -29,8 +30,15 @@
                 <i class="fas fa-shopping-cart"></i>
                 <span id="cart-value">0</span>
             </div>
+            <div id="hamburger-menu" onclick="show('menu')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
+
+    <!-- FIN ANJARA Header  -->
 
     <section id="section-1">
         <div class="box">
@@ -103,7 +111,8 @@
         </div>
     </section>
 
-    <footer>
+    <!-- ANJARA FOOTER -->
+    <footer id="footer">
         <div id="footer-div-1">
             <div >
                 <h1>AGI</h1>
@@ -184,6 +193,9 @@
         <hr>
         <p>Copyright &copy; 2021 AGI | Propulsé par ILO Madagascar</p>
     </footer>
+    <script src="app.js"></script>
+
+    <!-- ANJARA FOOTER -->
 
 
 </body>

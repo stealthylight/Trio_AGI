@@ -446,14 +446,14 @@ hr ~ p{
         width:30%;
 
     }
-    #section-4+footer #footer-div-1>div::after{
+    #body>footer> #footer-div-1>div::after{
         border:none;
     }
     #footer-div-1>div:last-child{
         width:50%;
         margin: auto;
     }
-    #section-4+footer #footer-div-1>div:nth-child(2):after{
+    #body>footer #footer-div-1>div:nth-child(2):after{
         
         border-right: 1px solid white;
         border-left: 1px solid white;
@@ -495,13 +495,13 @@ hr ~ p{
     }
 
     /* FOOTER */
-    #section-4+footer>#footer-div-1>div{
+    #body>#footer>#footer-div-1>div{
         width:49%;
     }
-    #section-3+#section-4+footer>#footer-div-1>div::after{
+    #body>#footer>#footer-div-1>div::after{
         border:none;
     }
-    #section-3+#section-4+footer>#footer-div-1>div:nth-child(even){
+    #body>#footer>#footer-div-1>div:nth-child(even){
         border-left:1px solid white;
         padding-bottom: 20px;
     }
