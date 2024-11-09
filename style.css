@@ -1,3 +1,4 @@
+/* ANJARA HEADER */
 @keyframes border_show{
     0%{
         opacity: 0;
@@ -139,6 +140,8 @@ nav{
     cursor:pointer;
 }
 
+/* FIN ANJARA HEADER */
+
 #section-1{
     background-color: rgba(0,0,0,0.2);
     padding: 100px 10px;
@@ -268,6 +271,9 @@ nav{
     line-height: 150%;
     margin: 25px auto;
 }
+
+/* ANJARA FOOTER */
+
 footer{
     background-color: rgba(30, 50, 130, 1);
     color:white;
@@ -361,15 +367,22 @@ hr ~ p{
     opacity:0.6;
     font-size: 0.85em;
 }
+
+/* ANJARA FOOTER */
+
+/* RESPONSIVE */
 @media screen and (max-width:1200px){
+    /* HEADER */
     body{
         font-size: 0.75em;
     }
     #menu a{
         padding: 0px 10px;
     }
+    /* HEADER FIN HEADER*/
 }
 @media screen and (max-width:950px ){
+    /* HEADER */
     body{
         max-width: 949px;
         font-size: 0.75em;
@@ -400,6 +413,9 @@ hr ~ p{
     #hamburger-menu {
         display: flex;
     }
+
+    /* FIN HEADER */
+
     #section-1-1{
         width:70%;
     }
@@ -421,6 +437,8 @@ hr ~ p{
     #section-4 p{
         width:75%;
     }
+
+    /* FOOTER */
     #footer-div-1{
         flex-wrap: wrap;
     }
@@ -441,8 +459,10 @@ hr ~ p{
         border-left: 1px solid white;
         height:165px;
     }
+    /* FIN FOOTER */
 }
 @media screen and (max-width:600px){
+    /* HEADER */
     body{
         max-width: 560px;
         font-size: 0.75em;
@@ -453,6 +473,7 @@ hr ~ p{
     #menu {
         right:-15px;
     }
+    /* FIN HEADER */
     #section-1-1{
         width:90%;
         margin: auto;
@@ -472,6 +493,8 @@ hr ~ p{
     #section-4 p{
         width:100%;
     }
+
+    /* FOOTER */
     #section-4+footer>#footer-div-1>div{
         width:49%;
     }
@@ -482,4 +505,5 @@ hr ~ p{
         border-left:1px solid white;
         padding-bottom: 20px;
     }
+    /* FIN FOOTER */
 }
