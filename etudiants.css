@@ -1,0 +1,87 @@
+.article1{
+    background-color: rgb(226, 226, 233);
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.image1{
+    position: relative;
+    left: 750px;
+    top: 10px;
+    height: 30px;
+}
+.image2{
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+.titre1{
+    position: relative;
+    font-size: 36px;
+    font-family: calibri ;
+    font-weight: 5px;
+    color:rgb(54, 54, 138);
+    text-shadow: 3px 3px  2px;
+    left: 100px;
+    bottom: 50px;   
+}
+.para1{
+    font-family: calibri;
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+    color: rgba(0, 0, 0, 0.719);
+}
+.para2{
+    font-family: calibri;
+    position: relative;
+    left: 100px;
+    bottom: 95px;
+    color: rgba(0, 0, 0, 0.719);
+}
+.titre2{
+    position: relative;
+    left: 700px;
+    bottom: 300px;
+    color: rgb(60, 60, 141);
+    font-family: Calibri;
+}
+
+.titre3{
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+    color: rgb(60, 60, 141);
+    font-family: Calibri;
+}
+.para3{
+    position: relative;
+    left: 700px;
+    bottom: 300px;
+    color: rgba(0, 0, 0, 0.637);
+    font-family: Calibri;
+}
+.para4{
+    position: relative;
+    bottom: 200px;
+    color: rgba(0, 0, 0, 0.685);
+    font-family: Calibri;
+}
+button{
+    background-color: rgba(0, 0, 0, 0.829);
+    color: aliceblue;
+    border: 1px  solid black;
+    border-radius: 20px;
+    padding: 15px 50px;
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+    margin-left: 200px;
+    display: space-between;
+    font-family: arial;
+    font-size: 15px;
+}
+i{
+    position: relative;
+    right: 10px
+}
